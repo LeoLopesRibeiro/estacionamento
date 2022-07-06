@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:ital,wght@0,100;0,400;1,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    width: 100vh;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#centro{
+    padding: 10px;
+    left: 20%;
+    width: max-content;
+    height: auto;
+    border: 2px solid black;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#entradas{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#entradas input{
+    margin-bottom: 10px;
+    height: 20px;
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#cadastrar{
+    margin-left: 500px;
+}
+button{
+    border: 1px solid;
+    border-radius: 3px;
+    width: 10%;
+    background-color: white;
+}
+
+#tabela{
+    
+    text-align: center;
+}
+th, td {
+    border-bottom: 1px solid #ddd;
+  }
